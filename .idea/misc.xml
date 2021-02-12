@@ -7,6 +7,9 @@
       </list>
     </option>
   </component>
+  <component name="ProjectResources">
+    <resource url="http://www.springframework.org/dtd/spring-beans.dtd" location="$USER_HOME$/AppData/Local/JetBrains/IdeaIC2020.3/extResources/5b169fd5_spring-beans.dtd" />
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_14" project-jdk-name="14" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>

@@ -38,6 +38,7 @@ public class BuddyInfo {
     public void setPhonenumber(String pN){
         this.phonenumber = pN;
     }
+
     @Override
     public String toString() {
         return "Name: " + name + '\'' +

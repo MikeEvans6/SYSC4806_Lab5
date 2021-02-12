@@ -4,27 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b46ef36e-e225-4775-8701-ffd83c429325" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/SYSC4806_Lab5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AddressBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AddressBookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AddressBookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BuddyInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BuddyInfoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/app-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/addressbook.html" afterDir="false" />
+    <list default="true" id="b46ef36e-e225-4775-8701-ffd83c429325" name="Default Changelist" comment="Lab 4 upload">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/buddyinfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SYSC4806_Lab5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SYSC4806_Lab5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AddressBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AddressBookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AddressBookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AddressBookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BuddyInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BuddyInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BuddyInfoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BuddyInfoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/addressbook.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/addressbook.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,18 +39,35 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\SYSC4806_Lab5\src\main\resources" />
       <recent name="G:\SYSC4806_Lab5\src\main\java" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Application" />
+      <module name="SYSC4806_Lab5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -57,6 +78,22 @@
       <option name="presentableId" value="Default" />
       <updated>1613146250459</updated>
     </task>
+    <task id="LOCAL-00001" summary="Lab 4 upload">
+      <created>1613147194406</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613147194406</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lab 4 upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 4 upload" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

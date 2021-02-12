@@ -1,22 +1,28 @@
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
 
-import java.util.concurrent.atomic.AtomicLong;
 
 @RestController
 public class AddressBookController {
-    private final AtomicLong counter = new AtomicLong();
+    @Autowired
+    private AddressBookRepository aRepo;
 
     @GetMapping("/addressbook")
-    public AddressBook addressBook(){
-        AddressBook book = new AddressBook(counter.incrementAndGet());
-        return book;
+    public String createAddressBook(Model model){
+        model.addAttribute("AddressBook", new AddressBook());
+        return "AddressBook";
+
     }
-    @GetMapping("/addressbook/buddy")
-    public String addBuddy(@RequestParam(value = "name") String name, @RequestParam(value = "phoneNumber") String phoneNumber){
-        return "";
+
+    @PostMapping("/addressbook")
+    public String getAddressBook(@ModelAttribute AddressBook aBook, Model model){
+        aRepo.save(aBook);
+        model.addAttribute("AddressBook", aBook);
+        return "result";
     }
+
+
 
 
 
