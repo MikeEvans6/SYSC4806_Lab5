@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+    <bean id="mainFrame" class="java.mainFrame" init-method="init">
+        <constructor-arg ref = "aBook"/>
+        <property name="title">
+            <value>AddressBook</value>
+        </property>
+    </bean>
+    <bean id="aBook" class="AddressBook"/>
+
+</beans>
