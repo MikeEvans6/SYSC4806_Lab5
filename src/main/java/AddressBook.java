@@ -9,7 +9,7 @@ public class AddressBook {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER, mappedBy = "addressBook")
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<BuddyInfo> buddyArray = new ArrayList<>();
 
     public AddressBook(){

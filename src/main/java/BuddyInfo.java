@@ -9,21 +9,22 @@ public class BuddyInfo {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Integer id;
+    private Long id;
     private String name;
     private String phonenumber;
 
     public BuddyInfo(){
 
     }
-    public BuddyInfo(String n, String pN){
+    public BuddyInfo(Long id,String n, String pN){
+        this.id = id;
         this.name = n;
         this.phonenumber = pN;
     }
-    public void setId(Integer id){
+    public void setId(Long id){
         this.id = id;
     }
-    public Integer getId(){
+    public Long getId(){
         return this.id;
     }
     public String getName(){

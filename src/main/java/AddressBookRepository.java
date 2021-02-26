@@ -7,5 +7,5 @@ import java.util.List;
 
 @RepositoryRestResource(collectionResourceRel = "addressbook", path = "addressbook")
 public interface AddressBookRepository extends CrudRepository<AddressBook, Long> {
-
+    List<AddressBook> finALl();
 }
