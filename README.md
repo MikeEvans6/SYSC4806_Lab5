@@ -1,4 +1,4 @@
 # SYSC4806_Lab5
+Heroku App:https://addressbook-sysc4806lab.herokuapp.com/
+Travis-Ci:https://www.travis-ci.com/github/MikeEvans6/SYSC4806_Lab5
 
-I will provide links to my Travis CI and my Heroku deploy once completed if I do not finish tonight
-I will be completing the necessary work over the weekend and reading week sorry for the inconveniece 
