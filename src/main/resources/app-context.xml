@@ -4,9 +4,9 @@
     <bean id="mainFrame" class="java.mainFrame" init-method="init">
         <constructor-arg ref = "aBook"/>
         <property name="title">
-            <value>AddressBook</value>
+            <value>App.AddressBook</value>
         </property>
     </bean>
-    <bean id="aBook" class="AddressBook"/>
+    <bean id="aBook" class="App.AddressBook"/>
 
 </beans>

@@ -4,17 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b46ef36e-e225-4775-8701-ffd83c429325" name="Default Changelist" comment="Lab 5 Upload">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HttpRequestTest.java" afterDir="false" />
+    <list default="true" id="b46ef36e-e225-4775-8701-ffd83c429325" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AddressBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AddressBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AddressBookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AddressBookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BuddyInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BuddyInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BuddyInfoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BuddyInfoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/addressbook.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/addressbook.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AddressBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App/AddressBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AddressBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App/AddressBookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AddressBookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App/AddressBookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BuddyInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App/BuddyInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BuddyInfoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App/BuddyInfoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/app-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/app-context.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestingWebApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HttpRequestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HttpRequestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestingWebApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestingWebApplicationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -56,7 +57,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Application" />
+      <option name="MAIN_CLASS_NAME" value="App.Application" />
       <module name="SYSC4806_Lab5" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,13 +99,21 @@
       <option name="project" value="LOCAL" />
       <updated>1613179411733</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Lab 5 Fix">
+      <created>1614358297898</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614358297898</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lab 4 upload" />
     <MESSAGE value="Lab 5 Upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab 5 Upload" />
+    <MESSAGE value="Lab 5 Fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 5 Fix" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
